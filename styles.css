@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(187, 185, 185);
+    height: 100vh;
+    
+    }
+    
+    .top{
+        position: relative;
+    }
+    
+    .slacklogo{
+        background: url(/stack-page/Slack3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: purple;
+        background-size: 150px;
+        height: 300px;
+        
+    }
+       
+    .image{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    .image img{
+        border: 10px solid  #ff69b4;;
+        width: 240px;
+        height: 220px;
+        border-radius: 120px;
+        object-fit: cover;
+    } 
+       
+    .info{
+       
+        margin-top: 30% ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px 25px 20px;
+        
+    }
+    
+    
+    h2{
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    button{
+       max-width: 150px;
+       padding: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+        box-shadow: 0px 0px 15px 5px #000000;
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        background-color:  #00ffff;;
+        color: black;
+    }
+    
+    
+    footer{
+        display: block;
+        text-align: center;
+        margin-top: 70px;
+        padding-bottom: 30px;
+        
+       
+        
+    }
+    
+    footer a{
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: black;
+       
+    }  
+    
+    footer span{
+        background-color:  #00ffff;;
+        padding: 10px 20px 10px 20px;
+        border-radius: 50px;
+        -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+        box-shadow: 0px 0px 15px 5px #000000;
+    }
+    
+    .fa{
+        font-size:20px ;
+    }
+    
+    
+    
+    
+       
+    
+        @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+            .info{
+                display: flex;
+                flex-direction: column;
+                min-width: 30px;
+               
+                
+          
+        }
+    
+        
+    }
+        
+        /* Landscape */
+        @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 4) {
+            .info{
+                display: flex;
+                flex-direction: column;
+                min-width: 30px;
+               
+                
+            
+        }
+        
+    }
+        
+        /* Portrait */
+        @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 4) {
+          
+            .info{
+                display: flex;
+                flex-direction: column;
+                min-width: 30px;
+               
+                
+            }
+           
+        }
